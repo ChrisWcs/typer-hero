@@ -10,6 +10,7 @@ export class AppComponent {
   @Input() text = 'works';
   index = 0;
   word: string = this.words[this.index];
+  tex = 'hello';
 
   checkResult(): void {
     if (this.words[this.index] === this.text) {
