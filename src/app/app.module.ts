@@ -8,6 +8,10 @@ import { ToeComponent } from './toe/toe.component';
 import { ChildComponent } from './child/child.component';
 import { TimeComponent } from './time/time.component';
 import { CounterComponent } from './counter/counter.component';
+import { OneComponent } from './one/one.component';
+import { TwoComponent } from './two/two.component';
+
+import { SharedService } from './shared.service';
 
 
 @NgModule({
@@ -16,13 +20,15 @@ import { CounterComponent } from './counter/counter.component';
     ToeComponent,
     ChildComponent,
     TimeComponent,
-    CounterComponent
+    CounterComponent,
+    OneComponent,
+    TwoComponent
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ SharedService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

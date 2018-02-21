@@ -10,7 +10,7 @@ export class TimeComponent implements OnInit {
   clock = new Date().toTimeString();
   id;
 
-  constructor() { 
+  constructor() {
     this.id = setInterval( () => {
       this.clock = new Date().toTimeString();
     }, 1000);
