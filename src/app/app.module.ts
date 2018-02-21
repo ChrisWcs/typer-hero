@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { ToeComponent } from './toe/toe.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToeComponent
   ],
   imports: [
     BrowserModule,
