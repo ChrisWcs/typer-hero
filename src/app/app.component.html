@@ -1,4 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<input type="text" [(ngModel)]="text" (ngModelChange)="checkResult()"/>
-<h1>{{word}}</h1>
+<div class="Column">
+  <input type="text" [(ngModel)]="text" (ngModelChange)="checkResult()"/>
+  <h1>{{word}}</h1>
+  <ul>
+    <li *ngFor="let w of words">
+      {{w}} 
+    </li>
+  </ul>
+</div>
 

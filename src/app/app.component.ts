@@ -7,7 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   words: string[] = ['he', 'she', 'book', 'shelf', 'piano'];
-
   @Input() text = 'works';
   index = 0;
   word: string = this.words[this.index];

@@ -1,0 +1,22 @@
+h1 {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+li {
+    font-family: Arial;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: solid 1px black;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
